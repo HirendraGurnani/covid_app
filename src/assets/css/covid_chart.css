@@ -1,0 +1,270 @@
+* {
+  font-family: "Signika Negative", sans-serif;
+}
+.wrapper {
+  width: 100%;
+  background-color: #e0efff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  margin-top: 50px;
+}
+
+.search_date_input {
+  display: flex;
+  width: 78%;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.search_country > select {
+  position: relative;
+  width: 870px;
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.date_range_picker {
+  border-radius: 15px;
+}
+
+.datepicker-label {
+  display: flex;
+  justify-content: space-around;
+}
+
+.startdate_picker,
+.enddate_picker {
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  color: black;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.startdate_picker {
+  border: 1px solid #00000038;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.enddate_picker {
+  border: 1px solid #00000038;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.stat_cards {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 40px;
+}
+
+.totalCaseCard,
+.totalRecovCard,
+.totalDeathCard {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 380px;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 12px;
+  position: relative;
+  margin: 0;
+
+  box-shadow: 8px 16px 7px -11px rgba(0, 0, 0, 0.2);
+}
+
+.total_cases,
+.total_recoveries,
+.total_deaths {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 0;
+}
+
+.total_cases > span,
+.total_recoveries > span,
+.total_deaths > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% + 35px);
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  top: -5px;
+  width: 120px;
+  right: -5px;
+  margin: 0;
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.2);
+}
+
+sub {
+  font-size: 18px;
+  bottom: 0;
+  padding-left: 8px;
+}
+
+.totalCaseCard {
+  background-color: #9ca8ff;
+}
+
+.totalRecovCard {
+  background-color: #47d928;
+}
+
+.totalDeathCard {
+  background-color: #f4554a;
+}
+
+.total_cases > span {
+  margin-left: 38px;
+}
+
+.total_recoveries > span {
+  margin-left: 43px;
+}
+
+.total_deaths > span {
+  margin-left: 108px;
+}
+
+.chart_area {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+
+/* Styles for mobile devices */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  .search_date_input {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .input-phone {
+    display: flex;
+    margin-top: 0px;
+  }
+
+  .datepicker-label {
+    margin-top: 20px;
+  }
+
+  .date_range_picker {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date_range_picker > input {
+    margin-top: 40px;
+  }
+
+  .search_country > select {
+    width: 320px;
+    padding: 5px;
+  }
+  .startdate_picker,
+  .enddate_picker {
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .stat_cards {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .totalCaseCard,
+  .totalRecovCard,
+  .totalDeathCard {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .chart_area {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  h1 {
+    font-size: 20px;
+  }
+  .search_date_input {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .input-phone {
+    display: flex;
+    margin-top: 0px;
+  }
+
+  .datepicker-label {
+    margin-top: 20px;
+  }
+
+  .date_range_picker {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date_range_picker > input {
+    margin-top: 40px;
+  }
+
+  .search_country > select {
+    width: 500px;
+    padding: 15px;
+  }
+  .startdate_picker,
+  .enddate_picker {
+    padding: 15px;
+    width: 220px;
+    font-size: 20px;
+  }
+
+  .stat_cards {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .totalCaseCard,
+  .totalRecovCard,
+  .totalDeathCard {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .chart_area {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+  }
+}
