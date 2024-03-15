@@ -89,7 +89,6 @@ function CovidDetail() {
             formattedDeathsData[formatDate(date)] = deathsData[date];
             formattedRecoveryData[formatDate(date)] = recoveryData[date];
           });
-          console.log(formattedDeathsData);
 
           setTotalCaseCount(
             ((casesData["3/9/23"] / countryPopulation) * 100).toFixed(4)
@@ -130,7 +129,6 @@ function CovidDetail() {
     };
     fetchData();
   }, [selectedCountry, startDate, endDate, completeUrl, countryPopulation]);
-  console.log(chartData);
 
   //   Function to convert big figures in millions
   function convertToMillions(number) {
