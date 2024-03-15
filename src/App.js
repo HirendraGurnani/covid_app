@@ -4,8 +4,6 @@ import CovidDetail from "./components/CovidDetail";
 function App() {
   return (
     <>
-    {/* <CovidChart></CovidChart> */}
-    {/* <CovidData></CovidData> */}
     <CovidDetail></CovidDetail>
     </>
   )
