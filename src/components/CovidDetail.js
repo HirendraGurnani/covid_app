@@ -193,6 +193,7 @@ function CovidDetail() {
               type="date"
               className="startdate_picker"
               value={startDate}
+              min={"2020-01-22"}
               onChange={handleStartDateChange}
               placeholder={startDate}
             />
@@ -200,6 +201,7 @@ function CovidDetail() {
               type="date"
               className="enddate_picker"
               value={endDate}
+              max={"2023-03-09"}
               onChange={handleEndDateChange}
               placeholder={endDate}
             />
