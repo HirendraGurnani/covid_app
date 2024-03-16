@@ -209,7 +209,127 @@ sub {
   }
 }
 
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
+  h1 {
+    font-size: 20px;
+  }
+  .search_date_input {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .input-phone {
+    display: flex;
+    margin-top: 0px;
+  }
+
+  .datepicker-label {
+    margin-top: 20px;
+  }
+
+  .date_range_picker {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date_range_picker > input {
+    margin-top: 40px;
+  }
+
+  .search_country > select {
+    width: 320px;
+    padding: 5px;
+  }
+  .startdate_picker,
+  .enddate_picker {
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .stat_cards {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .totalCaseCard,
+  .totalRecovCard,
+  .totalDeathCard {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .chart_area {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+  }
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  h1 {
+    font-size: 20px;
+  }
+  .search_date_input {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .input-phone {
+    display: flex;
+    margin-top: 0px;
+  }
+
+  .datepicker-label {
+    margin-top: 20px;
+  }
+
+  .date_range_picker {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date_range_picker > input {
+    margin-top: 40px;
+  }
+
+  .search_country > select {
+    width: 500px;
+    padding: 15px;
+  }
+  .startdate_picker,
+  .enddate_picker {
+    padding: 15px;
+    width: 220px;
+    font-size: 20px;
+  }
+
+  .stat_cards {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .totalCaseCard,
+  .totalRecovCard,
+  .totalDeathCard {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .chart_area {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1600px) {
   h1 {
     font-size: 20px;
   }
