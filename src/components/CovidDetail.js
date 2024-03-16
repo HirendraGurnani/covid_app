@@ -289,5 +289,5 @@ function CovidDetail() {
     </div>
   );
 }
-const pieColors = ["#0088FE", "#ff1100", "#1ea001", "#FF8042"];
+const pieColors = ["#0088fe", "#ff1100", "#1ea001"];
 export default CovidDetail;
