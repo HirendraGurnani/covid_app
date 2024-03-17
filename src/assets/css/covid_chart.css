@@ -180,7 +180,10 @@ sub {
   .search_country > select {
     width: 320px;
     padding: 5px;
-  }
+
+background-color: #142047;
+color: aliceblue; 
+}
   .startdate_picker,
   .enddate_picker {
     padding: 5px;
@@ -242,7 +245,10 @@ color: aliceblue;
   .search_country > select {
     width: 320px;
     padding: 5px;
-  }
+
+background-color: #142047;
+color: aliceblue;  
+}
   .startdate_picker,
   .enddate_picker {
     padding: 5px;
@@ -304,6 +310,9 @@ color: aliceblue;
   .search_country > select {
     width: 500px;
     padding: 15px;
+
+background-color: #142047;
+color: aliceblue;
   }
   .startdate_picker,
   .enddate_picker {
@@ -366,6 +375,9 @@ color: aliceblue;
   .search_country > select {
     width: 500px;
     padding: 15px;
+
+background-color: #142047;
+color: aliceblue;
   }
   .startdate_picker,
   .enddate_picker {
