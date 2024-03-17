@@ -179,7 +179,7 @@ sub {
 
   .search_country > select {
     width: 320px;
-    padding: 5px;
+    padding: 6px;
 
 background-color: #142047;
 color: aliceblue; 
@@ -244,7 +244,7 @@ color: aliceblue;
 
   .search_country > select {
     width: 320px;
-    padding: 5px;
+    padding: 6px;
 
 background-color: #142047;
 color: aliceblue;  
