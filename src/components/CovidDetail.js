@@ -262,7 +262,7 @@ function CovidDetail() {
           </LineChart>
         </ResponsiveContainer>
         <ResponsiveContainer width={"70%"} height={400}>
-          Pie Chart (Donut)
+          &emsp; &emsp; &emsp; &emsp;Pie Chart (Donut)
           <PieChart>
             <Pie
               data={calculateTotalCounts()}

@@ -24,8 +24,8 @@ h1 {
   width: 870px;
   padding: 15px;
   font-size: 20px;
-  border: none;
-  outline: none;
+  border: 1px solid #ffffff7e;
+  border: 1px solid #ffffffab;
   border-radius: 15px;
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2);
 }
@@ -49,12 +49,12 @@ h1 {
 }
 
 .startdate_picker {
-  border: 1px solid #00000038;
+  border: 1px solid #ffffff7e;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 .enddate_picker {
-  border: 1px solid #00000038;
+  border: 1px solid #ffffff7e;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -145,8 +145,8 @@ sub {
   width: 70%;
   justify-content: space-between;
   margin-top: 40px;
+  margin-left: 10%;
 }
-
 
 /* Styles for mobile devices */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -162,6 +162,10 @@ sub {
   .input-phone {
     display: flex;
     margin-top: 0px;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
   }
 
   .datepicker-label {
@@ -181,17 +185,17 @@ sub {
     width: 320px;
     padding: 6px;
 
-background-color: #142047;
-color: aliceblue; 
-}
+    background-color: #142047;
+    color: aliceblue;
+  }
   .startdate_picker,
   .enddate_picker {
     padding: 5px;
     width: 150px;
     font-size: 20px;
-background-color: #142047;
-color: aliceblue;
-}
+    background-color: #142047;
+    color: aliceblue;
+  }
 
   .stat_cards {
     flex-direction: column;
@@ -229,6 +233,10 @@ color: aliceblue;
     margin-top: 0px;
   }
 
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+
   .datepicker-label {
     margin-top: 20px;
   }
@@ -246,16 +254,16 @@ color: aliceblue;
     width: 320px;
     padding: 6px;
 
-background-color: #142047;
-color: aliceblue;  
-}
+    background-color: #142047;
+    color: aliceblue;
+  }
   .startdate_picker,
   .enddate_picker {
     padding: 5px;
     width: 150px;
     font-size: 20px;
-background-color: #142047;
-color: aliceblue;
+    background-color: #142047;
+    color: aliceblue;
   }
 
   .stat_cards {
@@ -294,6 +302,10 @@ color: aliceblue;
     margin-top: 0px;
   }
 
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+
   .datepicker-label {
     margin-top: 20px;
   }
@@ -311,16 +323,16 @@ color: aliceblue;
     width: 500px;
     padding: 15px;
 
-background-color: #142047;
-color: aliceblue;
+    background-color: #142047;
+    color: aliceblue;
   }
   .startdate_picker,
   .enddate_picker {
     padding: 15px;
     width: 220px;
     font-size: 20px;
-background-color: #142047;
-color: aliceblue;
+    background-color: #142047;
+    color: aliceblue;
   }
 
   .stat_cards {
@@ -359,6 +371,10 @@ color: aliceblue;
     margin-top: 0px;
   }
 
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+
   .datepicker-label {
     margin-top: 20px;
   }
@@ -376,8 +392,8 @@ color: aliceblue;
     width: 500px;
     padding: 15px;
 
-background-color: #142047;
-color: aliceblue;
+    background-color: #142047;
+    color: aliceblue;
   }
   .startdate_picker,
   .enddate_picker {
@@ -385,8 +401,9 @@ color: aliceblue;
     width: 220px;
     font-size: 20px;
 
-background-color: #142047;
-color: aliceblue;  }
+    background-color: #142047;
+    color: aliceblue;
+  }
 
   .stat_cards {
     flex-direction: column;
