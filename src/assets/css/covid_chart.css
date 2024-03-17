@@ -186,7 +186,9 @@ sub {
     padding: 5px;
     width: 150px;
     font-size: 20px;
-  }
+background-color: #142047;
+color: aliceblue;
+}
 
   .stat_cards {
     flex-direction: column;
@@ -246,6 +248,8 @@ sub {
     padding: 5px;
     width: 150px;
     font-size: 20px;
+background-color: #142047;
+color: aliceblue;
   }
 
   .stat_cards {
@@ -306,6 +310,8 @@ sub {
     padding: 15px;
     width: 220px;
     font-size: 20px;
+background-color: #142047;
+color: aliceblue;
   }
 
   .stat_cards {
@@ -366,7 +372,9 @@ sub {
     padding: 15px;
     width: 220px;
     font-size: 20px;
-  }
+
+background-color: #142047;
+color: aliceblue;  }
 
   .stat_cards {
     flex-direction: column;
